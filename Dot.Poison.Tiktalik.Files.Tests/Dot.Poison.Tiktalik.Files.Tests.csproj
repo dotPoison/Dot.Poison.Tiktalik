@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <IsPackable>false</IsPackable>
+        <IsTestProject>true</IsTestProject>
+        <UserSecretsId>48d0628e-5f35-4f28-807e-a31cb8b46c1c</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="coverlet.collector" Version="6.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.3" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="9.0.3" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0"/>
+        <PackageReference Include="NUnit" Version="3.14.0"/>
+        <PackageReference Include="NUnit.Analyzers" Version="3.9.0"/>
+        <PackageReference Include="NUnit3TestAdapter" Version="4.5.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Using Include="NUnit.Framework"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Dot.Poison.Tiktalik.Files\Dot.Poison.Tiktalik.Files.csproj" />
+    </ItemGroup>
+
+</Project>

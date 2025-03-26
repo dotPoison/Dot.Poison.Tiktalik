@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dot.Poison.Tiktalik.Files.Tests", "Dot.Poison.Tiktalik.Files.Tests\Dot.Poison.Tiktalik.Files.Tests.csproj", "{DE3171CC-824B-438E-80FC-4E68689AB322}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dot.Poison.Tiktalik.Files", "Dot.Poison.Tiktalik.Files\Dot.Poison.Tiktalik.Files.csproj", "{A67BD023-27B2-4324-9EAC-9358071A6E70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE3171CC-824B-438E-80FC-4E68689AB322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE3171CC-824B-438E-80FC-4E68689AB322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE3171CC-824B-438E-80FC-4E68689AB322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE3171CC-824B-438E-80FC-4E68689AB322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A67BD023-27B2-4324-9EAC-9358071A6E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A67BD023-27B2-4324-9EAC-9358071A6E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A67BD023-27B2-4324-9EAC-9358071A6E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A67BD023-27B2-4324-9EAC-9358071A6E70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19FE025E-4FE6-4363-8E31-68979E34783B}
+	EndGlobalSection
+EndGlobal
